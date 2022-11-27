@@ -1,13 +1,18 @@
-import * as React from 'react'
-import { Link } from 'gatsby'
+import React from 'react';
 
-const About = () => {
-    return (
-      <div>
-        <Link to="/">Back to Home Page</Link>
-        <h1>My About Page</h1>
-        <p>This is my About page</p>
+import "../components/index.css"
+
+
+const about = () => {
+  return (
+    <header className='hero'>
+      <div className='heroContainer'>
+        <div className='heroInfo'>
+        <h1>The about page</h1>
+                </div>
       </div>
-    )
-  }
-  export default About
+    </header>
+  );
+}
+
+export default about;
