@@ -1,13 +1,14 @@
-import * as React from 'react'
-import { Link } from 'gatsby'
+import React from 'react'
+import Layout from "../components/layout"
+ 
 
-const Index = () => {
+const index = () => {
   return (
-    <div>
-      <Link to="/about">About Page</Link>
-      <h1>My Landing Page</h1>
-      <p>This is my landing page</p>
-    </div>
+    <Layout>
+      <h1>This is the homepage body copy section</h1>
+    </Layout>
   )
 }
-export default Index
+
+export default index
+
