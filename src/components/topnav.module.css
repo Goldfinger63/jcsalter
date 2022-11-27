@@ -1,0 +1,9 @@
+.navWrapper {
+    background-color: rgba(68, 72, 77, 1);
+    width: 100vw;
+    padding-top: 1em;
+    padding-bottom: 1em; 
+}
+.navWrapper a {
+    color: rgba(255, 255, 255, 1);
+}
